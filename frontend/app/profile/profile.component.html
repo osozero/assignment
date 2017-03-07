@@ -1,0 +1,31 @@
+<div class="col-md-6 col-md-offset-3">
+    <div class="row">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">Profile</h3>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-3">
+                        <label>Email:</label>
+                    </div>
+                    <div class="col-md-3">
+                        <label>{{email}}</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <label>Username:</label>
+                    </div>
+                    <div class="col-md-3">
+                        <label>{{username}}</label>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-footer">
+                <p><a [routerLink]="['/login']">Logout</a></p>
+            </div>
+        </div>
+    </div>
+</div>
